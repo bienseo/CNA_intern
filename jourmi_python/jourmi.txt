@@ -1,0 +1,5 @@
+Jourmi Deep Learning Session Team(2017)
+
+2017.05.01-
+Study Python(with PyCharm)
+
