@@ -1,3 +1,9 @@
+'''
+CNA Intern
+Study name: MNIST Example
+Created by Eunseo Cho on 06/05/2017.
+'''
+
 import sys, os, pickle
 sys.path.append(os.pardir)
 import numpy as np
@@ -6,9 +12,7 @@ from id_soft import *
 from mnist import load_mnist
 
 def get_data():
-	(x_train, t_train), (x_test, t_test) = load_mnist(normalize=True,
-													  flatten=True,
-													  one_hot_label=False)
+	(x_train, t_train), (x_test, t_test) = load_mnist(normalize=True, flatten=True, one_hot_label=False)
 	return x_test, t_test
 
 def init_network():
