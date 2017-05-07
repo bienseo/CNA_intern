@@ -1,3 +1,9 @@
+'''
+CNA Intern
+Study name: Batch
+Created by Eunseo Cho on 06/05/2017.
+'''
+
 import numpy as np
 from neuralnet_mnist import *
 
