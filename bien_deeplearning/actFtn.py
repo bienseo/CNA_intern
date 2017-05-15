@@ -17,6 +17,9 @@ def sigmoid(x):
 	h = 1 / (1 + np.exp(-x))
 	return h
 
+def sigmoid_grad(x):
+    return (1.0 - sigmoid(x)) * sigmoid(x)
+
 def relu(x):
 	h = np.maximum(0, x)
 	return h
