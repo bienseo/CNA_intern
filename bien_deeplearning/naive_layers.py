@@ -31,7 +31,7 @@ class AddLayer:
 
 		return out
 
-	def backward(self, x, y):
+	def backward(self, dout): # dout = 순전파 출력에 대한 미분
 		dx = dout * 1 # remain as same vale: derivative of output 
 		dy = dout * 1
 
