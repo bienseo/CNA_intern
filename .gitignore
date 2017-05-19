@@ -1,0 +1,16 @@
+
+bien_deeplearning/t10k-images-idx3-ubyte.gz
+
+*.gz
+
+bien_deeplearning/__pycache__/mnist.cpython-36.pyc
+
+bien_deeplearning/__pycache__/actFtn.cpython-36.pyc
+
+*.pyc
+
+bien_deeplearning/mnist.pkl
+
+bien_deeplearning/mnist.py
+
+bien_deeplearning/sample_weight.pkl
